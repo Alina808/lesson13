@@ -171,6 +171,11 @@
     right: 3%;
 }
 
+.carousel .slick-prev:hover,
+.carousel .slick-next:hover {
+    background-color: rgba(0,0,0,0.5);
+} 
+
 .carousel .slick-dots {
     position: absolute;
     bottom: 3%;
