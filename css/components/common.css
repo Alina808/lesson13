@@ -87,11 +87,14 @@
     background: transparent;
     border: none;
     height: 50px;
-    width: 50px;
+    width: 30px;
     outline: none;
     transition: background-color 0.3s linear;
 }
 
+.slider .slick-prev {
+    z-index: 5;
+}
 .slider .slick-prev::before, 
 .slider .slick-next::before {
     font-size: 36px;
@@ -114,11 +117,11 @@
 }
 
 .slider .slick-prev {
-    left: -5%;
+    left: 0;
 }
 
 .slider .slick-next {
-    right: -5%;
+    right: 0;
 }
 
 .slider .slick-prev:hover, .slick-next:hover {
