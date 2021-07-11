@@ -8,12 +8,15 @@
 	margin: 0 auto;
 }
 
-.card {
+.slick-slide {
     padding: 15px;
 }
 
 .hover-img {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .block {
@@ -25,7 +28,7 @@
 .hover-img img {
     width: 100%;
     display: block;
-    transition:  opacity .3s linear;
+    transition:  opacity .2s linear;
 }
 
 .card:hover .block {
@@ -48,30 +51,30 @@
     padding: 0 1px 0 0;
     margin: 0;
     display: flex;
-    transition: background-color .3s linear;
+    transition: background-color .2s linear;
  }
 
 .social-networks a {
     text-decoration: none;
+    color: #ffffff;
+    vertical-align: middle;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a454d;
+    transition: background-color .2s linear;
+    font-size: 28px;
 }
 
 .social-networks li {
     margin-right: 1px;
 }
 
-.social-networks i  {
-    color: #ffffff;
-    border: 1px solid #3a454d;
-    background-color: #3a454d;
-    padding: 15px 17px;
-    transition: background-color .2s linear, border-color .2s linear;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-.social-networks i:hover {
+.social-networks a:hover {
     background-color: #5b6c79;
-    border-color: #5b6c79;
 }
 
 .card:hover .social-networks {
@@ -131,6 +134,7 @@
 .carousel img {
     width: 100%;
     object-fit: cover;
+    height: 100%;
 }
 
 .carousel .slick-prev, 
